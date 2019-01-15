@@ -70,6 +70,10 @@ body{
 
 /*CARDS*/
 
+.cards1{
+  column-break-inside: avoid;
+}
+
 .card img{
   opacity: .5;
 }
