@@ -21,9 +21,12 @@ body{
 }
 
 .carousel-caption{
+  overflow: hidden;
+  height: 50vh;
   left: 2%;
   right: 2%;
   top: 40%;
+  bottom: 0;
   background-color: rgba(0,0,0,.5);
   padding: 4% 7%;
 }
@@ -39,7 +42,6 @@ body{
 }
 
 .carousel-caption h5{
-  margin-top: 8%;
   font-size: 5vw;
   left: 2%;
   right: 2%;
