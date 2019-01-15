@@ -70,10 +70,29 @@ body{
 
 /*CARDS*/
 
-.cards1{
-  column-break-inside: avoid;
+.c1{
+  background-image: url(../img/card3.jpg);
+  height: 45vh;
+  background-size: 140%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.card img{
-  opacity: .5;
+.c2{
+  background-image: url(../img/card2.jpg);
+  height: 45vh;
+  opacity: .7;
+    background-size: 140%;
+    background-position: center;
+  background-repeat: no-repeat;
+}
+
+.purple{
+  height: 60vh;
+
+}
+
+footer{
+  height: 25vh;
+  background-color: #1b171c;
 }
